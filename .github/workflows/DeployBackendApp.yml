@@ -6,7 +6,6 @@ on:
       - "backend/**"
     branches:
       - feat/video-cicd-ecs
-
 env:
   # Setting an environment variable with the value of a configuration variable
   ECR_BACKEND_IMAGE: ${{ vars.ECR_BACKEND_IMAGE }}
